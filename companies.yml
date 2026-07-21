@@ -119,3 +119,78 @@ companies:
   - name: IGEL
     domain: igel.com
     careers_url: https://www.igel.com/about-us/careers/
+      - name: STARK
+    domain: starkdefence.com
+    careers_url: https://starkdefence.com/careers
+
+  - name: Isar Aerospace
+    domain: isaraerospace.com
+    careers_url: https://isaraerospace.com/careers
+
+  - name: Proxima Fusion
+    domain: proximafusion.com
+    careers_url: https://proximafusion.com/careers
+
+  - name: RobCo
+    domain: robco.de
+    careers_url: https://robco.de/careers
+
+  - name: FINN
+    domain: finn.com
+    careers_url: https://www.finn.com/en/careers
+
+  - name: Upvest
+    domain: upvest.co
+    careers_url: https://upvest.co/careers
+
+  - name: Taktile
+    domain: taktile.com
+    careers_url: https://taktile.com/careers
+
+  - name: eleQtron
+    domain: eleqtron.com
+    careers_url: https://eleqtron.com/jobs
+
+  - name: osapiens
+    domain: osapiens.com
+    careers_url: https://careers.osapiens.com
+
+  - name: Entrix
+    domain: entrixenergy.com
+    careers_url: https://entrixenergy.com/careers
+
+  - name: ConstellR
+    domain: constellr.com
+    careers_url: https://constellr.com/careers
+
+  - name: LiveEO
+    domain: live-eo.com
+    careers_url: https://live-eo.com/careers
+
+  - name: Freshflow
+    domain: freshflow.ai
+    careers_url: https://freshflow.ai/careers
+
+  - name: ClearOps
+    domain: clearops.io
+    careers_url: https://clearops.io/careers
+
+  - name: Prior Labs
+    domain: priorlabs.ai
+    careers_url: https://priorlabs.ai/careers
+
+  - name: Cloover
+    domain: cloover.com
+    careers_url: https://cloover.com/careers
+
+  - name: metiundo
+    domain: metiundo.io
+    careers_url: https://jobs.metiundo.io
+
+  - name: Flagright
+    domain: flagright.com
+    careers_url: https://www.flagright.com/careers
+
+  - name: Bunch
+    domain: bunch.capital
+    careers_url: https://bunch.capital/careers
