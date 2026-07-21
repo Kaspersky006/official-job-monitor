@@ -170,7 +170,51 @@ def extract_anchor_jobs(soup: BeautifulSoup, company: str, base_url: str, offici
     page_text = clean(soup.get_text(" "))
     for a in soup.find_all("a", href=True):
         title = clean(a.get_text(" "))
+        BAD_TITLES = {
+    "",
+    "skip to content",
+    "home",
+    "menu",
+    "privacy",
+    "privacy policy",
+    "imprint",
+    "impressum",
+    "cookie settings",
+    "cookies",
+    "contact",
+    "login",
+    "log in",
+    "register",
+    "sign in",
+    "search",
+    "jobs",
+    "careers",
+    "apply now",
+    "back",
+    "next",
+    "previous",
+}
+
+if title.lower().strip() in BAD_TITLES:
+    continue
         href = urljoin(base_url, a["href"])
+        if href.startswith("#"):
+    continue
+
+if "mailto:" in href:
+    continue
+
+if "tel:" in href:
+    continue
+
+if "javascript:" in href:
+    continue
+
+if "#main" in href:
+    continue
+
+if "#content" in href:
+    continue
         if not title or len(title) < 5 or len(title) > 180 or IGNORE_ANCHOR.match(title):
             continue
         if not allowed_url(href, official_domain):
