@@ -1,0 +1,197 @@
+companies:
+  - name: Quantum Systems
+    domain: quantum-systems.com
+    careers_url: https://quantum-systems.com/career/
+  - name: ARX Robotics
+    domain: arx-robotics.com
+    careers_url: https://www.arx-robotics.com/careers
+  - name: Fernride
+    domain: fernride.com
+    careers_url: https://www.fernride.com/jobs
+  - name: Agile Robots
+    domain: agile-robots.com
+    careers_url: https://www.agile-robots.com/en/career/
+  - name: Tacto
+    domain: tacto.ai
+    careers_url: https://www.tacto.ai/careers
+  - name: Celonis
+    domain: celonis.com
+    careers_url: https://www.celonis.com/careers/jobs/
+  - name: Personio
+    domain: personio.com
+    careers_url: https://jobs.personio.com/
+  - name: remberg
+    domain: remberg.de
+    careers_url: https://remberg.de/en/careers/
+  - name: Orbem
+    domain: orbem.ai
+    careers_url: https://orbem.ai/careers/
+  - name: KONUX
+    domain: konux.com
+    careers_url: https://www.konux.com/careers/
+  - name: Filics
+    domain: filics.eu
+    careers_url: https://filics.jobs.personio.de/
+  - name: sewts
+    domain: sewts.com
+    careers_url: https://jobs.sewts.com/
+  - name: Helsing
+    domain: helsing.ai
+    careers_url: https://jobs.helsing.ai/
+  - name: NEURA Robotics
+    domain: neura-robotics.com
+    careers_url: https://career.neura-robotics.com/
+  - name: Sereact
+    domain: sereact.ai
+    careers_url: https://jobs.sereact.ai/
+  - name: Motor AI
+    domain: motor-ai.com
+    careers_url: https://motor-ai.com/careers/
+  - name: Energy Robotics
+    domain: energy-robotics.com
+    careers_url: https://www.energy-robotics.com/careers
+  - name: SPREAD
+    domain: spread.ai
+    careers_url: https://www.spread.ai/careers
+  - name: n8n
+    domain: n8n.io
+    careers_url: https://n8n.io/careers/
+  - name: DeepL
+    domain: deepl.com
+    careers_url: https://www.deepl.com/en/jobs
+  - name: Aleph Alpha
+    domain: aleph-alpha.com
+    careers_url: https://aleph-alpha.com/career/
+  - name: deepset
+    domain: deepset.ai
+    careers_url: https://www.deepset.ai/careers
+  - name: Qdrant
+    domain: qdrant.tech
+    careers_url: https://jobs.qdrant.tech/
+  - name: Parloa
+    domain: parloa.com
+    careers_url: https://www.parloa.com/careers
+  - name: Black Forest Labs
+    domain: blackforestlabs.ai
+    careers_url: https://blackforestlabs.ai/careers/
+  - name: Infineon
+    domain: infineon.com
+    careers_url: https://www.infineon.com/cms/en/careers/jobsearch/
+  - name: CARIAD
+    domain: cariad.technology
+    careers_url: https://careers.cariad.technology/
+  - name: Siemens
+    domain: siemens.com
+    careers_url: https://jobs.siemens.com/careers
+  - name: BMW
+    domain: bmwgroup.jobs
+    careers_url: https://www.bmwgroup.jobs/de/en.html
+  - name: Knorr-Bremse
+    domain: knorr-bremse.com
+    careers_url: https://www.knorr-bremse.com/en/careers/
+  - name: Tools for Humanity
+    domain: toolsforhumanity.com
+    careers_url: https://www.toolsforhumanity.com/careers
+  - name: Bosch
+    domain: bosch.com
+    careers_url: https://www.bosch.com/careers/job-offers/
+  - name: Continental
+    domain: continental.com
+    careers_url: https://jobs.continental.com/
+  - name: Airbus
+    domain: airbus.com
+    careers_url: https://ag.wd3.myworkdayjobs.com/Airbus
+  - name: NVIDIA
+    domain: nvidia.com
+    careers_url: https://www.nvidia.com/en-us/about-nvidia/careers/
+  - name: Rohde & Schwarz
+    domain: rohde-schwarz.com
+    careers_url: https://www.rohde-schwarz.com/career/
+  - name: Schaeffler
+    domain: schaeffler.com
+    careers_url: https://jobs.schaeffler.com/
+  - name: Valeo
+    domain: valeo.com
+    careers_url: https://www.valeo.com/en/careers/
+  - name: Avelios
+    domain: avelios.com
+    careers_url: https://www.avelios.com/careers
+  - name: IGEL
+    domain: igel.com
+    careers_url: https://www.igel.com/company/careers/
+
+  - name: STARK
+    domain: starkdefence.com
+    careers_url: https://starkdefence.com/careers
+
+  - name: Isar Aerospace
+    domain: isaraerospace.com
+    careers_url: https://isaraerospace.com/careers
+
+  - name: Proxima Fusion
+    domain: proximafusion.com
+    careers_url: https://proximafusion.com/careers
+
+  - name: RobCo
+    domain: robco.de
+    careers_url: https://robco.de/careers
+
+  - name: FINN
+    domain: finn.com
+    careers_url: https://www.finn.com/en/careers
+
+  - name: Upvest
+    domain: upvest.co
+    careers_url: https://upvest.co/careers
+
+  - name: Taktile
+    domain: taktile.com
+    careers_url: https://taktile.com/careers
+
+  - name: eleQtron
+    domain: eleqtron.com
+    careers_url: https://eleqtron.com/jobs
+
+  - name: osapiens
+    domain: osapiens.com
+    careers_url: https://careers.osapiens.com
+
+  - name: Entrix
+    domain: entrixenergy.com
+    careers_url: https://entrixenergy.com/careers
+
+  - name: ConstellR
+    domain: constellr.com
+    careers_url: https://constellr.com/careers
+
+  - name: LiveEO
+    domain: live-eo.com
+    careers_url: https://live-eo.com/careers
+
+  - name: Freshflow
+    domain: freshflow.ai
+    careers_url: https://freshflow.ai/careers
+
+  - name: ClearOps
+    domain: clearops.io
+    careers_url: https://clearops.io/careers
+
+  - name: Prior Labs
+    domain: priorlabs.ai
+    careers_url: https://priorlabs.ai/careers
+
+  - name: Cloover
+    domain: cloover.com
+    careers_url: https://cloover.com/careers
+
+  - name: metiundo
+    domain: metiundo.io
+    careers_url: https://jobs.metiundo.io
+
+  - name: Flagright
+    domain: flagright.com
+    careers_url: https://www.flagright.com/careers
+
+  - name: Bunch
+    domain: bunch.capital
+    careers_url: https://bunch.capital/careers
