@@ -2,7 +2,7 @@ name: Official Job Monitor
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 11,17,23 * * *"
   workflow_dispatch:
 
 permissions:
