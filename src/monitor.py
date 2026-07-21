@@ -41,10 +41,27 @@ LOCATION_PATTERNS = re.compile(
     re.I,
 )
 ATS_DOMAINS = {
-    "boards.greenhouse.io", "job-boards.greenhouse.io", "jobs.lever.co", "jobs.ashbyhq.com",
-    "personio.de", "jobs.personio.com", "smartrecruiters.com", "careers.smartrecruiters.com",
-    "teamtailor.com", "recruitee.com", "workable.com", "myworkdayjobs.com", "workdayjobs.com",
-    "successfactors.eu", "successfactors.com", "join.com"
+    "boards.greenhouse.io",
+    "job-boards.greenhouse.io",
+    "jobs.lever.co",
+    "jobs.ashbyhq.com",
+    "personio.de",
+    "jobs.personio.com",
+    "smartrecruiters.com",
+    "careers.smartrecruiters.com",
+    "teamtailor.com",
+    "recruitee.com",
+    "workable.com",
+    "myworkdayjobs.com",
+    "workdayjobs.com",
+    "successfactors.eu",
+    "successfactors.com",
+    "join.com",
+
+    # NEW
+    "jobs.infineon.com",
+    "jobs.eightfold.ai",
+    "careers.eightfold.ai"
 }
 IGNORE_ANCHOR = re.compile(r"^(apply|apply now|learn more|read more|details|view job|see jobs?)$", re.I)
 
@@ -198,11 +215,17 @@ def fetch(session: requests.Session, url: str) -> requests.Response | None:
 def scan_company(company: dict) -> tuple[list[Job], str]:
     session = requests.Session()
     session.headers.update({
-        "User-Agent": "Mozilla/5.0 (compatible; OfficialJobMonitor/1.0; +https://github.com/)",
-        "Accept-Language": "en-US,en;q=0.9,de;q=0.8",
-    })
+    "User-Agent": "Mozilla/5.0",
+    "Accept": "text/html,application/xhtml+xml,application/json",
+    "Accept-Language": "en-US,en;q=0.9,de;q=0.8",
+    "Referer": company["careers_url"],
+})
     start = company["careers_url"]
-    queue = [start]
+    queue = [
+    start,
+    start + "?domain=" + company["domain"],
+    start + "&domain=" + company["domain"],
+]
     visited: set[str] = set()
     found: dict[str, Job] = {}
     max_pages = int(os.getenv("MAX_PAGES_PER_COMPANY", "18"))
