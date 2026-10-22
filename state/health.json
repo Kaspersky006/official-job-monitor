@@ -1,111 +1,111 @@
 {
  "ASAP Group": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 54,
   "matches": 0,
   "status": "ok"
  },
  "Audi": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.audi.com/\nCall log:\nnavigating to \"https://jobs.audi.com/\", waiting until \"domcontentloaded\"\n",
   "links": 0,
   "matches": 0,
   "status": "error"
  },
  "Aumovio": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 216,
   "matches": 0,
   "status": "ok"
  },
  "BMW Group": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 165,
   "matches": 3,
   "status": "ok"
  },
  "Bertrandt": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 2,
   "matches": 0,
   "status": "few_links"
  },
  "Bosch": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 16,
   "matches": 0,
   "status": "ok"
  },
  "CARIAD": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 58,
   "matches": 1,
   "status": "ok"
  },
  "Elektrobit": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 184,
   "matches": 0,
   "status": "ok"
  },
  "IAV": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 48,
   "matches": 0,
   "status": "ok"
  },
  "Infineon": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 49,
   "matches": 5,
   "status": "ok"
  },
  "Mobileye": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
-  "links": 597,
+  "links": 603,
   "matches": 0,
   "status": "ok"
  },
  "PSW automotive": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 95,
   "matches": 0,
   "status": "ok"
  },
  "Rohde & Schwarz": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 281,
   "matches": 0,
   "status": "ok"
  },
  "Technica Engineering": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 5,
   "matches": 0,
   "status": "ok"
  },
  "Vector Informatik": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 1,
   "matches": 0,
   "status": "few_links"
  },
  "dSPACE": {
-  "checked": "2026-10-22T12:33:41+00:00",
+  "checked": "2026-10-22T12:45:42+00:00",
   "error": null,
   "links": 77,
   "matches": 0,
