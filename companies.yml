@@ -1,0 +1,40 @@
+# Edit this file to add, remove or fix sources.
+# type: html        = plain page fetch (fast, works for static pages)
+# type: playwright  = real browser, for JavaScript-heavy career sites
+# type: recruitee   = Recruitee job feed (url is the company's recruitee.com address)
+#
+# The URLs below are starting points. Check the "health" message / Actions summary
+# after the first runs and fix any source marked error or few_links.
+
+min_links: 5   # a page with fewer links than this is treated as broken, not as "no jobs"
+
+include:
+  - 'werkstudent\w*'
+  - 'werkstudier\w*'
+  - 'working[ -]student\w*'
+  - 'praktik\w*'
+  - '\bintern\b'
+  - 'internship\w*'
+  - 'student assistant'
+
+exclude:
+  - '\b(hr|human resources|personal\w*|recruit\w*|marketing|finance|finanz\w*|legal|recht\w*)\b'
+  - '\b(sales|vertrieb\w*|einkauf\w*|procurement|controlling|accounting|kommunikation|communications)\b'
+
+companies:
+  - {name: "Audi",                    type: playwright, url: "https://jobs.audi.com/"}
+  - {name: "CARIAD",                  type: playwright, url: "https://cariad.technology/de/en/career.html"}
+  - {name: "BMW Group",               type: playwright, url: "https://www.bmwgroup.jobs/de/de/jobfinder.html"}
+  - {name: "Infineon",                type: playwright, url: "https://www.infineon.com/cms/de/careers/jobsearch/"}
+  - {name: "Bosch",                   type: playwright, url: "https://jobs.bosch.com/de/"}
+  - {name: "Aumovio",                 type: playwright, url: "https://www.aumovio.com/de/careers"}
+  - {name: "Mobileye",                type: playwright, url: "https://careers.mobileye.com/jobs"}
+  - {name: "Rohde & Schwarz",         type: playwright, url: "https://jobs.rohde-schwarz.com/de_DE/careers/SearchJobs/Werkstudent"}
+  - {name: "Elektrobit",              type: playwright, url: "https://www.elektrobit.com/careers/"}
+  - {name: "Vector Informatik",       type: playwright, url: "https://www.vector.com/de/de/unternehmen/karriere/stellenangebote/"}
+  - {name: "dSPACE",                  type: playwright, url: "https://www.dspace.com/en/pub/home/career.cfm"}
+  - {name: "IAV",                     type: playwright, url: "https://www.iav.com/karriere/jobs/"}
+  - {name: "Bertrandt",               type: playwright, url: "https://www.bertrandt.com/de/karriere/stellenangebote"}
+  - {name: "ASAP Group",              type: playwright, url: "https://www.asap.de/karriere/"}
+  - {name: "PSW automotive",          type: playwright, url: "https://www.psw-engineering.de/karriere"}
+  - {name: "Technica Engineering",    type: recruitee,  url: "https://technicaengineeringgmbh.recruitee.com"}

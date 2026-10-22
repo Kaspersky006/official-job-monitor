@@ -1,0 +1,43 @@
+name: job-monitor
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # every hour at minute 7 (UTC)
+  workflow_dispatch:       # lets you run it by hand from the Actions tab
+
+concurrency:
+  group: job-monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: write          # needed to save state/seen.json back to the repo
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Check job pages
+        run: python monitor.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Save state
+        run: |
+          git config user.name "job-monitor"
+          git config user.email "job-monitor@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet || (git commit -m "Update state [skip ci]" && git push)
