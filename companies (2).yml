@@ -1,0 +1,54 @@
+# Edit this file to add, remove or fix sources.
+# type: html        = plain page fetch (fast, works for static pages)
+# type: playwright  = real browser, for JavaScript-heavy career sites
+# type: recruitee   = Recruitee job feed (url is the company's recruitee.com address)
+#
+# The URLs below are starting points. Check the "health" message / Actions summary
+# after the first runs and fix any source marked error or few_links.
+
+location_default: loose   # per company: location: strict drops jobs with no visible German location
+min_links: 5   # a page with fewer links than this is treated as broken, not as "no jobs"
+
+include:
+  - 'werkstudent\w*'
+  - 'werkstudier\w*'
+  - 'working[ -]student\w*'
+  - 'praktik\w*'
+  - '\bintern\b'
+  - 'internship\w*'
+  - 'student assistant'
+
+exclude:
+  - '\b(hr|human resources|personal\w*|recruit\w*|marketing|finance|finanz\w*|legal|recht\w*)\b'
+  - '\b(sales|vertrieb\w*|einkauf\w*|procurement|controlling|accounting|kommunikation|communications)\b'
+
+companies:
+  - {name: "Audi",                    type: playwright, url: "https://jobs.audi.com/", location: strict}
+  - {name: "CARIAD",                  type: playwright, url: "https://cariad.technology/de/en/career.html"}
+  - {name: "BMW Group",               type: playwright, url: "https://www.bmwgroup.jobs/de/de/jobfinder.html", location: strict}
+  - {name: "Infineon",                type: playwright, url: "https://www.infineon.com/cms/de/careers/jobsearch/", location: strict}
+  - {name: "Bosch",                   type: playwright, url: "https://jobs.bosch.com/de/", location: strict}
+  - {name: "Aumovio",                 type: playwright, url: "https://www.aumovio.com/de/careers", location: strict}
+  - {name: "Mobileye",                type: playwright, url: "https://careers.mobileye.com/jobs", location: strict}
+  - {name: "Rohde & Schwarz",         type: playwright, url: "https://jobs.rohde-schwarz.com/de_DE/careers/SearchJobs/Werkstudent", location: strict}
+  - {name: "Elektrobit",              type: playwright, url: "https://www.elektrobit.com/careers/", location: strict}
+  - {name: "Vector Informatik",       type: playwright, url: "https://www.vector.com/de/de/unternehmen/karriere/stellenangebote/", location: strict}
+  - {name: "dSPACE",                  type: playwright, url: "https://www.dspace.com/en/pub/home/career.cfm"}
+  - {name: "IAV",                     type: playwright, url: "https://www.iav.com/karriere/jobs/", location: strict}
+  - {name: "Bertrandt",               type: playwright, url: "https://www.bertrandt.com/de/karriere/stellenangebote"}
+  - {name: "ASAP Group",              type: playwright, url: "https://www.asap.de/karriere/"}
+  - {name: "PSW automotive",          type: playwright, url: "https://www.psw-engineering.de/karriere"}
+  - {name: "Technica Engineering",    type: recruitee,  url: "https://technicaengineeringgmbh.recruitee.com", location: strict}
+  - {name: "Siemens",                 type: playwright, url: "https://jobs.siemens.com/en_US/externaljobs", location: strict}
+  - {name: "Siemens Energy",          type: playwright, url: "https://jobs.siemens-energy.com/en_US/jobs/Jobs", location: strict}
+  - {name: "Siemens Healthineers",    type: playwright, url: "https://jobs.siemens-healthineers.com/careers", location: strict}
+  - {name: "Airbus",                  type: playwright, url: "https://ag.wd3.myworkdayjobs.com/en-US/Airbus", location: strict}
+  - {name: "Allianz Group",           type: playwright, url: "https://careers.allianz.com/", location: strict}
+  - {name: "Knorr-Bremse",            type: playwright, url: "https://careers.knorr-bremse.com/", location: strict}
+  # Startups and groups without a reliable career page: read from Arbeitnow's open job feed.
+  # "companies" is a regular expression matched against the company name. Add or remove names freely.
+  - name: "Startups and groups (Arbeitnow)"
+    type: arbeitnow
+    pages: 5
+    location: loose
+    companies: 'revel8|munich[ -]?electrification|quantum[ -]systems|baywa|allianz|knorr|helsing|isar aerospace|celonis|retorio|personio|kopernikus|agile robots|konux|tado|neura|aleph alpha|black forest labs|deepl|parloa'
