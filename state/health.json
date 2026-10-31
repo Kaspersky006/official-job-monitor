@@ -1,6 +1,6 @@
 {
  "ASAP Group": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 54,
@@ -8,15 +8,15 @@
   "status": "ok"
  },
  "Airbus": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 30,
-  "matches": 0,
+  "matches": 1,
   "status": "ok"
  },
  "Allianz Group": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 88,
@@ -24,7 +24,7 @@
   "status": "ok"
  },
  "Audi": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.audi.com/\nCall log:\nnavigating to \"https://jobs.audi.com/\", waiting until \"domcontentloaded\"\n",
   "links": 0,
@@ -32,7 +32,7 @@
   "status": "error"
  },
  "Aumovio": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 216,
@@ -40,7 +40,7 @@
   "status": "ok"
  },
  "BMW Group": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 8,
   "error": null,
   "links": 165,
@@ -48,7 +48,7 @@
   "status": "ok"
  },
  "Bertrandt": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 2,
@@ -56,7 +56,7 @@
   "status": "few_links"
  },
  "Bosch": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 16,
@@ -64,7 +64,7 @@
   "status": "ok"
  },
  "CARIAD": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 58,
@@ -72,7 +72,7 @@
   "status": "ok"
  },
  "Elektrobit": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 184,
@@ -80,7 +80,7 @@
   "status": "ok"
  },
  "IAV": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 48,
@@ -88,15 +88,15 @@
   "status": "ok"
  },
  "Infineon": {
-  "checked": "2026-10-30T20:49:35+00:00",
-  "dropped": 1,
+  "checked": "2026-10-31T00:39:34+00:00",
+  "dropped": 0,
   "error": null,
   "links": 48,
   "matches": 1,
   "status": "ok"
  },
  "Knorr-Bremse": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 75,
@@ -104,7 +104,7 @@
   "status": "ok"
  },
  "Mobileye": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 594,
@@ -112,7 +112,7 @@
   "status": "ok"
  },
  "PSW automotive": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 95,
@@ -120,7 +120,7 @@
   "status": "ok"
  },
  "Rohde & Schwarz": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 281,
@@ -128,7 +128,7 @@
   "status": "ok"
  },
  "Siemens": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 39,
@@ -136,7 +136,7 @@
   "status": "ok"
  },
  "Siemens Energy": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 1,
   "error": null,
   "links": 73,
@@ -144,7 +144,7 @@
   "status": "ok"
  },
  "Siemens Healthineers": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 54,
@@ -152,15 +152,15 @@
   "status": "ok"
  },
  "Startups and groups (Arbeitnow)": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
-  "links": 1471,
+  "links": 1472,
   "matches": 3,
   "status": "ok"
  },
  "Technica Engineering": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 5,
@@ -168,7 +168,7 @@
   "status": "ok"
  },
  "Vector Informatik": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 1,
@@ -176,7 +176,7 @@
   "status": "few_links"
  },
  "dSPACE": {
-  "checked": "2026-10-30T20:49:35+00:00",
+  "checked": "2026-10-31T00:39:34+00:00",
   "dropped": 0,
   "error": null,
   "links": 79,
